@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Essa parte deve abrir o arquivo em um dataframe
-file_path = "/home/davidrangel/Desktop/py.coderhouse/best-selling-game-consoles.xlsx"
+file_path = "" #colocar o caminho do arquivo
 
 # isso lê o arquivo
 df = pd.read_excel(file_path)
